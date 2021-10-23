@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8633948585376970820}
   - component: {fileID: 1627941023850118713}
   - component: {fileID: 1120427872841357287}
-  - component: {fileID: 1120427872841357288}
   m_Layer: 0
   m_Name: NPC 1
   m_TagString: Untagged
@@ -62,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 84793f302b44f784f9032efc49119730, type: 2}
+  - {fileID: 2100000, guid: c351b51a8ee11f14593d649cf5fa1231, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -114,51 +113,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &1120427872841357288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142765107924607572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1cc1488c0494fa49b1b521f7b819fdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aiGraph: {fileID: 8048141352504378427, guid: f5650bb371cf58c4592ed4a10e918b04, type: 3}
-  secondaryGraphs:
-  - aiGraph: {fileID: 9090885874128399832, guid: e29d01548be0bee4d9fd0421f6f6f4d3, type: 3}
-    updateFrequency: 0
-    useCustomLoadBalancerConfig: 0
-    expandPerfInfo: 0
-    scalableLoadBalancing: 0
-    maxAllowedUpdateFrequency: 0
-    loadBalancerConfig:
-      name: 
-      loadBalancerType: 0
-      valueX: 0
-      valueY: 0
-      calculateDeltaTime: 0
-      useUnscaledDeltaTime: 0
-      dontRemoveWhenEmpty: 0
-    overrideGraphVariablesForNestedGraphs: 0
-  useCustomLoadBalancerConfig: 0
-  scalableLoadBalancing: 0
-  expandPerfInfo: 0
-  maxAllowedUpdateFrequency: 120
-  overrideGraphVariablesForNestedGraphs: 1
-  mainGraphLbc:
-    name: 
-    loadBalancerType: 0
-    valueX: 0
-    valueY: 0
-    calculateDeltaTime: 0
-    useUnscaledDeltaTime: 0
-    dontRemoveWhenEmpty: 0
-  instantiatedSecondaryGraphs: []
-  contextProvider: {fileID: 0}
-  graphStepsPerUpdate: 9999
-  dontHideInHierarchy: 0
-  updateFrequency: 2
-  references: []
